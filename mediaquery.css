@@ -101,7 +101,10 @@
     width: 300px;
   }
     /*****footer******/
-    .footer{
+  #footer{
+    padding: 50px 50px 50px 20px;
+  }
+  .footer{
       display: block;
       text-align: left;
     }
