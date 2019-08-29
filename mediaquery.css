@@ -1,0 +1,137 @@
+@media (max-width:765px) {
+  body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  h1{
+    font-size: 1rem;
+    /* padding: 0px;
+    margin: 0px; */
+  }
+  .logo{
+    height:50px;
+    max-width: 100%;
+    width:100px;
+  }
+  /*****************introduction section**********/
+  #introduction{
+    margin: 100px 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  .row{
+    display:flex;
+  }
+  .image1,.image2{
+    order:1;
+    /* text-align: center; */
+  }
+  .intro-col{
+    order:2;
+    /* padding: 0px; */
+    text-align: center;
+  }
+  .heading1{
+    font-size: 2rem;
+    font-family: inherit;
+    max-width:100%;
+    margin: 20px auto;
+    padding:0px;
+    width: 500px;
+  }
+  .intro-p,.p1{
+    max-width: 100%;
+    margin:20px auto;
+    padding: 0px;
+    width: 350px;
+  }
+  .input1{
+    max-width: 100%;
+    width:330px;
+    margin: 20px auto 20px;
+  }
+  .button{
+    max-width: 100%;
+    margin-left: 0px;
+    width:330px;
+  }
+          /* *********productive section */
+  #productive{
+    padding: 0px;
+    text-align: center;
+  }
+  .productive-col{
+    order: 2;
+  }
+  .heading2{
+    max-width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    width: 350px;
+  }
+  .p1{
+    max-width: 100%;
+    width:370px;
+  }
+  .arrow-p{
+    text-align: center;
+  }
+  hr{
+    margin-top: 10px 0px 0px 142px;
+  }
+  .comment{
+    margin: 50px auto;
+  }
+  #signup{
+    text-align: center;
+  }
+  .signup-p{
+    line-height: 1.5;
+    max-width: 100%;
+    margin: 10px auto;
+    width: 330px;
+  }
+  .form-col{
+    margin: 0px;
+    text-align: center;
+  }
+  .input2,.btn2{
+    max-width: 100%;
+    width: 300px;
+  }
+    /*****footer******/
+    .footer{
+      display: block;
+      text-align: left;
+    }
+    /* .contact{
+      text-align: left;
+    } */
+    .phone,.email{
+      margin-left:0px;
+    }
+    .footerlinks{
+      display: block;
+      padding-left: 0px;
+    }
+    .linkssec2{
+      padding-top: 20px;
+    }
+    .socialicons{
+      text-align: center;
+    }
+}
+
+
+
+
+
+@media (max-width:990px) {
+  .image1,.image2{
+    order:1;
+  }
+  .intro-col,.productive-col{
+    order:2;
+  }
+}
